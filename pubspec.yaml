@@ -1,0 +1,32 @@
+name: mycalender
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dart_jsonwebtoken: ^2.3.2
+  provider: ^6.1.2
+  path_provider: ^2.1.5
+  json_serializable: ^6.9.0
+  http: ^1.2.2
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.8
+  table_calendar: ^3.1.2
+  flutter_secure_storage: ^9.2.2
+  google_sign_in: ^5.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/json/db.json
+  uses-material-design: true
